@@ -1,0 +1,80 @@
+:root {
+    --background-color: #000;
+    --white-shade: #fff;
+    --secondary-containers: #01796f;
+    --buttons: #800080;
+}
+
+html {
+    font-size: 10px;
+    background-color: var(--background-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--white-shade);
+}
+
+.input-container {
+    border: 1px solid var(--white-shade);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--white-shade);
+    border-radius: 30px;
+}
+
+label {
+    font-size: 1.5rem;
+    padding: 10px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+input {
+    margin-right: 10px;
+}
+
+#check-btn {
+    border-radius: 10px;
+    background-color: var(--buttons);
+    color: var(--white-shade);
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+#check-btn:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 3rem;
+}
+
+.user-guidance {
+    margin: 0 auto;
+    background-color: var(--secondary-containers);
+    width: 50%;
+    margin-top: 80px;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.user-guidance > p {
+    font-size: 2.5rem;
+}
+
